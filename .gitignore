@@ -50,7 +50,6 @@ logs.md
 *.pdf
 files.zip
 ARCHITECTURE_ANALYSIS.md
-GEMINI.md
 logs.md
 # --- OS / IDE ---
 .vscode/
