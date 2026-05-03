@@ -1,0 +1,13 @@
+# ── Core RAG dependencies ──────────────────────────────────
+google-genai>=0.8.0             # NEW Gemini SDK (replaces deprecated google-generativeai)
+qdrant-client>=1.12.0           # Qdrant Cloud vector store (query_points support)
+fastembed              # Lightweight reranking & embeddings
+tavily-python>=0.3.0            # Tavily web search
+pymupdf>=1.24.0                 # PDF text extraction
+python-dotenv>=1.0.0            # Loads .env variables
+
+# ── Backend & API ──────────────────────────────────────────
+fastapi>=0.111.0                # Web framework
+uvicorn[standard]>=0.30.0       # ASGI server
+python-multipart>=0.0.9         # Required for file uploads in FastAPI
+pydantic>=2.7.0                 # Data validation

@@ -1,0 +1,61 @@
+# --- SECRETS & ENV ---
+.env
+*.env
+.venv/
+venv/
+ENV/
+env/
+
+# --- PYTHON ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.mypy_cache/
+
+# --- FRONTEND (React/Vite) ---
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.eslintcache
+
+# --- PROJECT SPECIFIC ---
+pdfs/
+.pdf_hashes.json
+logs.md
+*.pdf
+files.zip
+ARCHITECTURE_ANALYSIS.md
+GEMINI.md
+logs.md
+# --- OS / IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
