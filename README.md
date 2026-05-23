@@ -40,7 +40,7 @@ Seamlessly integrated with **Tavily Search API** for deep web retrieval when loc
 
 ## 🏗️ System Architecture
 
-![RAG Architecture](https://github.com/AbdulSamad200/Advanced-CRAG-Pipeline/blob/main/Chatflow.png?raw=true)
+![RAG Architecture](https://github.com/AbdulSamad200/Advanced-CRAG-Pipeline/blob/main/Architecture.png?raw=true)
 
 
 The system follows a high-precision **Corrective RAG (CRAG)** architecture designed for enterprise-grade accuracy:
